@@ -107,3 +107,7 @@
 18> Inflationary Tokens ---------- AirDrop interest to token holders ---------- Internal Accounting discrepancy with the Actual Balance
 
 > > FINDING: None noted (no airdrop noted)
+
+**OVERALL OBSERVATIONS:**
+
+> > OVERALL FINDINGS:
