@@ -1,9 +1,3 @@
-**token checklist**
-
-    https://gist.github.com/shayanb/cd495e23c7cf1a8b269f8ce7fd198538
-
----
-
 ## REPORT
 
 ---
@@ -81,3 +75,9 @@
 ---
 
 18> Inflationary Tokens ---------- AirDrop interest to token holders ---------- Internal Accounting discrepancy with the Actual Balance
+
+---
+
+**Token Checklist**
+
+[token checklist](https://gist.github.com/shayanb/cd495e23c7cf1a8b269f8ce7fd198538)
