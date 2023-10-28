@@ -4,7 +4,7 @@
 
 1> ^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
 
-> > FINDING:
+> > FINDING: The Answer
 
 ---
 
