@@ -6,7 +6,7 @@ ERC20 ---------- Allowance ---------- Double withdrawal (front-running)
 
 ---
 
-^^^^^^---------- decimals() ---------- The decimals can be more than 18
+1> ^^^^^^---------- decimals() ---------- The decimals can be more than 18
 
 ---
 
