@@ -25,5 +25,5 @@ with this template:
 **Run**
 slither .
 
-**Results for ERC20 Contract**
+**Slither Results for ERC20 Contract**
 ![Slither Report](https://github.com/ecorey/HW12_F/blob/main/images/slitherReport.JPG)
