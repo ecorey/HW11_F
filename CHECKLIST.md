@@ -2,64 +2,64 @@
 
 ---
 
-ERC20 ---------- Allowance ---------- Double withdrawal (front-running)
+1> ERC20 ---------- Allowance ---------- Double withdrawal (front-running)
 
 ---
 
-1> ^^^^^^---------- decimals() ---------- The decimals can be more than 18
+2> ^^^^^^---------- decimals() ---------- The decimals can be more than 18
 
 ---
 
-^^^^^^ ---------- ^^^^^^ ---------- Not accounting for the tokens that try to prevent multiple withdrawal attack
+3> ^^^^^^ ---------- ^^^^^^ ---------- Not accounting for the tokens that try to prevent multiple withdrawal attack
 
 ---
 
-^^^^^^ ---------- ^^^^^^---------- Unprotected ‍‍‍‍‍‍‍transferFrom()
+4> ^^^^^^ ---------- ^^^^^^---------- Unprotected ‍‍‍‍‍‍‍transferFrom()
 
 ---
 
-^^^^^^ ---------- External Calls ---------- Unchecked Call Return Value
+5> ^^^^^^ ---------- External Calls ---------- Unchecked Call Return Value
 
 ---
 
-^^^^^^ ---------- ^^^^^^ ---------- DoS with unexpected revert
+6> ^^^^^^ ---------- ^^^^^^ ---------- DoS with unexpected revert
 
 ---
 
-^^^^^^ ---------- Transfers ---------- Might return False instead of Revert
+7> ^^^^^^ ---------- Transfers ---------- Might return False instead of Revert
 
 ---
 
-^^^^^^ ---------- ^^^^^^ ---------- Missing return value
+8> ^^^^^^ ---------- ^^^^^^ ---------- Missing return value
 
 ---
 
-^^^^^^ ---------- BalanceOf() ---------- Internal Accounting discrepancy with the Actual Balance
+9> ^^^^^^ ---------- BalanceOf() ---------- Internal Accounting discrepancy with the Actual Balance
 
 ---
 
-^^^^^^ ---------- Blacklistable ---------- Blacklisted addresses cannot receive or send tokens
+10> ^^^^^^ ---------- Blacklistable ---------- Blacklisted addresses cannot receive or send tokens
 
 ---
 
-^^^^^^ ---------- Mintable / Burnable ---------- TotalSupply can change by trusted actors
+11> ^^^^^^ ---------- Mintable / Burnable ---------- TotalSupply can change by trusted actors
 
 ---
 
-^^^^^^ ---------- Pausable ---------- All functionalities can be paused by trusted actors
+12> ^^^^^^ ---------- Pausable ---------- All functionalities can be paused by trusted actors
 
 ---
 
-^^^^^^ ---------- Forced Transfers ---------- Trusted actors have the ability to transfer funds however they choose
+13> ^^^^^^ ---------- Forced Transfers ---------- Trusted actors have the ability to transfer funds however they choose
 
 ---
 
-^^^^^^ ---------- ^^^^^^ ---------- Receiver mining GasToken
+14> ^^^^^^ ---------- ^^^^^^ ---------- Receiver mining GasToken
 
 ---
 
-^^^^^^ ---------- ^^^^^^ ---------- Receiver blocks the transfer
+15> ^^^^^^ ---------- ^^^^^^ ---------- Receiver blocks the transfer
 
 ---
 
-^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
+16> ^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
