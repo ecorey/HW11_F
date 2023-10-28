@@ -63,3 +63,11 @@
 ---
 
 16> ^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
+
+---
+
+16> Deflationary Tokens ---------- Take fees from transfers ---------- Internal Accounting discrepancy with the Actual Balance
+
+---
+
+17> Inflationary Tokens ---------- AirDrop interest to token holders ---------- Internal Accounting discrepancy with the Actual Balance
