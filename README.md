@@ -24,3 +24,6 @@ with this template:
 
 **Run**
 slither .
+
+**Results for ERC20 Contract**
+![Slither Report](https://github.com/ecorey/Solidity-Course-Expert/blob/main/images/slitherReport.JPG)
