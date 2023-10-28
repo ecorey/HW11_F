@@ -2,7 +2,7 @@
 
 ---
 
-1> ERC20 ---------- Allowance ---------- Double withdrawal (front-running)
+1> ^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
 
 ---
 
@@ -62,12 +62,12 @@
 
 ---
 
-16> ^^^^^^ ---------- Whitelisting ---------- Tokens can only be sent to whitelisted addresses
+16> ERC20 ---------- Allowance ---------- Double withdrawal (front-running)
 
 ---
 
-16> Deflationary Tokens ---------- Take fees from transfers ---------- Internal Accounting discrepancy with the Actual Balance
+17> Deflationary Tokens ---------- Take fees from transfers ---------- Internal Accounting discrepancy with the Actual Balance
 
 ---
 
-17> Inflationary Tokens ---------- AirDrop interest to token holders ---------- Internal Accounting discrepancy with the Actual Balance
+18> Inflationary Tokens ---------- AirDrop interest to token holders ---------- Internal Accounting discrepancy with the Actual Balance
