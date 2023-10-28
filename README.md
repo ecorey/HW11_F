@@ -7,6 +7,6 @@ Go through the token checklist
 
 **To Deploy and Run script just add private key with no double quotes**
 
-    forge create --rpc-url https://eth-sepolia.g.alchemy.com/v2/L8b_wM9C0XY0rMDwmGshrCG8W4e2SJLk --private-key xxx src/HW11.sol:Context
+    forge create --rpc-url https://eth-sepolia.g.alchemy.com/v2/L8b_wM9C0XY0rMDwmGshrCG8W4e2SJLk --private-key xxx src/HW12.sol:Context
 
 **deployed to:**
